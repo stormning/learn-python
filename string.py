@@ -19,5 +19,14 @@ print len(c)
 print d.upper()
 print "abcd".capitalize()
 print "Abcd".istitle()
-for item in c:
-    print item
+
+print d[2:5]
+
+print d[:5]
+
+print " a".strip()
+
+print "please insert a name"
+name = raw_input()
+print "Hello,%s" % name
+
